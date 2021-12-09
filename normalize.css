@@ -1,0 +1,85 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+body 
+{
+	margin:  0;
+}
+
+.honesty
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.title {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+footer
+{
+	align-items: center;
+    background-color: #0A0A18;
+    color: white;
+    padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.navbar-nav {
+	font-weight: 500;
+    font-size: 16px;
+}
+
+.page-content 
+{
+	width: 100%;
+	margin:  0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #0a0a18;
+    background-image: linear-gradient(359deg, #0a0a18 0%, #ffffff 100%);
+}
+
+.form-content  
+{
+	background: #1818DB;
+	width: 1000px;
+    color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+	margin: 40px 0;
+	position: relative;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    background-color: #376eb5;
+    background-image: linear-gradient(180deg, #376eb5 0%, #000000 100%);
+    
+    
+}
+
+.form-main h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container .col-lg-6 h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+

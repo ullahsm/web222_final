@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<title>Md Safkat Ullah</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script defer src="info.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div style="text-align: center;">
+			<img src="img/logo/msu_logo.png" alt="MSU Logo">
+		</div>
+	</header>
+
+	<div class="page-content">
+		<div class="form-content">
+			<div>
+				<nav class="navbar navbar-expand-sm bg-light navbar-light">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="honesty.html">Honesty Statement</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="info.html">Register</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="reflection.html">Reflection</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="container">
+				<div class="col-lg-6 m-auto d-block">
+					<div>
+						<br>
+						<h3>Register Here</h3>
+					</div>
+					<form name="signup" method="post" action="https://httpbin.org/post" onsubmit="return validateForm()">
+						<div class="form-group">
+							<label for="fname"> First Name </label>
+							<input type="text" name="fname" class="form-control" id="fname" autocomplete="off" placeholder="Enter your first name"/>
+							<span id="fName" class="text-danger"> </span>
+						</div>
+						<div class="form-group">
+							<label for="lname"> Last Name </label>
+							<input type="text" name="lname" class="form-control" id="lname" autocomplete="off" placeholder="Enter your last name" />
+							<span id="lName" class="text-danger"> </span>
+						</div>
+						<div>
+							<input type="hidden" name="lastName" id="lastName" value="Ullah" />
+							<input type="hidden" name="studentId" id="studentId" value="130486202" />
+						</div>
+						<div class="form-group">
+							<label for="user"> Username </label>
+							<input type="text" name="user" class="form-control" id="user" autocomplete="off" placeholder="Enter username"/>
+							<span id="username" class="text-danger"> </span>
+						</div>
+						<div class="form-group">
+							<label> Password </label>
+							<input type="password" name="pass" class="form-control" id="pass" autocomplete="off" placeholder="Enter new password"/>
+							<span id="passwords" class="text-danger">
+							</span>
+						</div>
+
+						<div class="form-group">
+							<label> Confirm Password </label>
+							<input type="password" name="confp" class="form-control" id="confp" autocomplete="off" placeholder="Re-enter password"/>
+							<span id="confirmpassword" class="text-danger font-weight-regular">
+							</span>
+						</div>
+
+						<div class="form-group">
+							<label> Educational Status </label><br>
+							<input type="radio" id="graduated" name="educationalStatus" value="Graduated" required>
+							<label for="graduated">Graduated</label><br>
+							<input type="radio" id="enrolled" name="educationalStatus" value="Current Enrolled">
+							<label for="enrolled">Current Enrolled</label><br>
+							<input type="radio" id="notgraduated" name="educationalStatus" value="Did not Graduated">
+							<label for="notgraduated">Did not Graduated</label><br>
+							<span id="edids" class="text-danger font-weight-regular"> </span>
+						</div>
+
+						<div class="form-group">
+							<label> Email </label>
+							<input type="email" name="email" class="form-control" id="emails" autocomplete="off" placeholder="Enter your email address" required />
+							<span id="emailids" class="text-danger font-weight-regular"> </span>
+						</div>
+
+						<div class="form-group">
+							<label> Age </label>
+							<input type="number" name="age" class="form-control" id="age" autocomplete="off" placeholder="Enter your age" />
+							<span id="ageids" class="text-danger font-weight-regular"> </span>
+						</div>
+						<br>
+						<input type="submit" name="submit" value="Submit" class="btn btn-primary" />
+						<input type="reset" name="reset" value="Reset" class="btn btn-primary" />
+						<br>
+					</form>
+
+					<br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div style="text-align: center;">
+			<p><br>
+				&copy; 2021 Md Safkat Ullah | WEB222 | ZBB |
+				<a href="https://github.com/ullahsm/web222_final.git">GitHub</a>
+			</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
